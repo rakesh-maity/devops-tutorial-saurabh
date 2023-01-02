@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("rakeshmaity/dockerimg02jan")
+        app = docker.build("rakeshmaity/docker-img-02jan")
     }
 
     stage('Test image') {
